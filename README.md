@@ -1,4 +1,4 @@
-<h1 align="center">Animations and Transitions in CSS</h1>
+<h1 align="center">Animations and transitions in CSS</h1>
 
 <div align="center">
    Solution for a challenge from Larnu.

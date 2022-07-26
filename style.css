@@ -34,6 +34,7 @@ body {
   font-weight: 200;
   color: var(--white);
   text-shadow: 0 0 10px var(--white);
+  margin-top: 0;
 }
 
 .btn-larnu {
