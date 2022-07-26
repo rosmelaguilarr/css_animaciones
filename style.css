@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  --bg-color: #121F3D;
+  --white: rgb(255 255 255 /.7);
+  --orange: orangered;
+  --red: crimson;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1024px;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: var(--white);
+  text-shadow: 0 0 10px var(--white);
+}
+
+.btn-larnu {
+  --white: rgb(255 255 255 /.7);
+  height: 70px;
+  width: 250px;
+  cursor: pointer;
+  padding: .5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: var(--red);
+  border-radius: 10px;
+  border: 3px solid rgb(255 255 255 /.2);
+  color: var(--white);
+  transition: all .4s ease;
+}
+
+.btn-larnu:hover {
+  --white: rgb(255 255 255 /.9);
+  background-color: var(--orange);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgb(255 166 0 /0.5);
+  color: var(--white);
+}
+
+.btn-larnu:active {
+  transform: scale(.95);
+  box-shadow: 0 0 10px rgb(255 166 0 /0.5);
+}
