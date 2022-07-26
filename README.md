@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://rosmeltd.github.io/css_grid/">
+    <a href="https://rosmeltd.github.io/css_animaciones/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/rosmeltd/css_grid">
+    <a href="https://github.com/rosmeltd/css_animaciones">
       Solution
     </a>
   </h3>
